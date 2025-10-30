@@ -16,7 +16,7 @@ export default function CardItem({ title, description, image, url, color }) {
         <Text style={styles.desc}>{description}</Text>
         {url && (
           <TouchableOpacity style={[styles.button, { backgroundColor: color || '#3566f8' }]} onPress={handlePress}>
-            <Text style={styles.buttonText}>En savoir plus</Text>
+            <Text style={styles.buttonText}>clic ici pour se faire hacker</Text>
           </TouchableOpacity>
         )}
       </View>
